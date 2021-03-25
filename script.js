@@ -41,7 +41,7 @@ document.querySelector(".check").addEventListener("click", function() {
             score--;
             document.querySelector(".score").textContent = score;
         } else {
-            displayMessage = "🧨 You Lose The Game";
+            displayMessage("🧨 You Lose The Game");
             document.querySelector(".score").textContent = 0;
             document.querySelector("body").style.backgroundColor = "#bf0603";
         }
@@ -53,7 +53,7 @@ document.querySelector(".check").addEventListener("click", function() {
             score--;
             document.querySelector(".score").textContent = score;
         } else {
-            displayMessage = "🧨 You Lose The Game";
+            displayMessage("🧨 You Lose The Game");
             document.querySelector(".score").textContent = 0;
             document.querySelector("body").style.backgroundColor = "#bf0603";
         }
